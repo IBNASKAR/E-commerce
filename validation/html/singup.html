@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/singup.css">
+    <title>Sing Up</title>
+
+</head>
+<body>
+
+  <div class="form">
+    <h1 class="h1">Si<span>g</span>n Up</h1>
+  <div class="container">
+        <div class="usernamediv">
+            <label><b>Username</b></label>
+            <input class="userNameinput" type="text" placeholder="Enter Username" name="uname"  id="userNameinput">
+            <p id="un" style="color: red;"></p>
+        </div>
+        <div class="emaildiv">
+          <label><b>Email</b></label>
+          <input class="Emailinput" type="email" placeholder="Enter Email" name="email" required id="Emailinput">
+          <p id="em" style="color: red;"></p>
+        </div>
+        <div class="passworddiv">
+            <label><b>password</b></label>
+            <input class="passwordinput" type="password" placeholder="Enter password" name="password" required id="passwordinput" >
+            <p id="pass" style="color: red;"></p>
+        </div>
+        <div class="Confirmpassworddiv">
+            <label><b>Confirm password</b></label>
+            <input class="Confirmpasswordinput" type="password" placeholder="Enter Confirm Password" name="Cpassword" required id="Confirmpasswordinput">
+            <p id="cpass" style="color: red;"></p>
+        </div>
+
+        <button  id="btn" type="submit">sign up</button>
+        <span style="text-align: center; display: block;"><span style="color: rgb(4, 163, 4);">O</span>R</span>
+        <div class="adiv">
+          <a href="../html/login.html">Login</a> 
+        </div>
+  </div>
+</div>
+
+<script src="../js/handleSignUp.js"></script>
+</body>
+</html>

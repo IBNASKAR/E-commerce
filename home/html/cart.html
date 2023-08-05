@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <script src="cart.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body style="background-image: url(background.png); background-size:cover;">
+    <div class="page">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Cart</a></li>
+        </ul>
+      </nav>
+      <p>Z<span>om</span>ARA</p>
+    </header>
+    <main>
+      <h1>Cart</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2"></td>
+            <td>Total:</td>
+            <td id="total-price"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </div>
+  </body>
+</html>

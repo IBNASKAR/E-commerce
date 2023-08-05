@@ -1,0 +1,97 @@
+/* Bordered form
+} */
+.usernamediv{
+  padding:  10px 0;
+  
+}
+/* Set a style for all buttons */
+button {
+  background-color: #272928;
+  color: white;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 2px;
+}
+  .form {
+      border: 3px solid #f1f1f1;
+    }
+  .form
+    {
+      width: 50%;
+      /* height: 25em; */
+      margin: auto;
+      margin-top: 1.8em;
+      padding: 3em 0; 
+    }
+    .h1
+    {
+      text-align: center;
+      letter-spacing: 4px;
+    }
+    .h1 span{
+      color: rgb(4, 163, 4);
+
+    }
+    /* Full-width inputs */
+     .userNameinput, .passwordinput  ,.Confirmpasswordinput, .Emailinput{
+      width: 100%;
+      padding: 12px 20px;
+      margin-top: 10px ;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+} 
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 8px;
+}
+
+.adiv{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #272928;
+
+}
+.adiv a{
+  text-decoration: none;
+  /* background-color: #272928; */
+  color: white;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 2px;
+}
+.adiv:hover{
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

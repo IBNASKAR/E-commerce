@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Home Page</title>
+    <script src="../js/home.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  </head>
+  <body style="background-image: url(background.png); background-size:cover;">
+    <div class="page">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="../html/cart.html">Cart</a></li>
+          <li><input  onkeyup="search(this.value)" placeholder="search"></li>
+        
+        </ul>
+      
+      </nav>
+        <p>Z<span>om</span>ARA</p>
+    </header>
+    <main>
+      <h1>Products</h1>
+      <div class="product-list" id="products">
+        
+      </div>
+      
+   
+    </main>
+    <aside>
+        <h2>Filter by Category</h2>
+        <form>
+          <input type="radio" id="all" name="category" value="all" checked>
+          <label for="all">All</label><br>
+          <input type="radio" id="electronics" name="category" value="electronics">
+          <label for="electronics">Electronics</label><br>
+          <input type="radio" id="jewelery" name="category" value="jewelery">
+          <label for="jewelery">Jewelery</label><br>
+          <input type="radio" id="men-clothing" name="category" value="men's clothing">
+          <label for="men-clothing">Men's Clothing</label><br>
+          <input type="radio" id="women-clothing" name="category" value="women's clothing">
+          <label for="women-clothing">Women's Clothing</label><br>
+        </form>
+      </aside>
+      
+      
+    </div>
+  </body>
+</html>

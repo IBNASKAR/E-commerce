@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.page{
+	display: grid;
+	height: 100vh;
+	grid-template-columns: repeat(10,1fr);
+	grid-template-rows:80px auto;
+	grid-template-areas: 
+	"nav nav nav nav nav nav nav nav nav nav "
+	"side side cont cont cont cont cont cont cont cont "
+  }
+
+header {
+	grid-area: nav;
+	background-color: #f2f2f2;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header li input{
+	border-radius: 25px;
+	border: 2px solid #333;
+	padding: 21px; 
+	width: 300px;
+	height: 15px; 
+}
+aside{
+	grid-area:side ;
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  header nav ul {
+	display: flex;
+	list-style: none;
+}
+
+header nav ul li {
+	margin-right: 20px;
+}
+
+header nav ul li a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	background-color: #333;
+	border-radius: 25px;
+}
+header p {
+	float: right;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 40px;
+padding-right: 60px;
+}
+header p span{
+	color: green;
+}
+nav ul li.active a {
+	color: #fff;
+	background-color: #333;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+main { 
+	grid-area: cont;
+	padding: 20px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.product-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product {
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	width: 450px;
+	height: 260px;
+	
+}
+
+.product img {
+	display:flex;
+	max-width: 100%;
+	max-height: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	width: auto;
+	height: 120px;
+	margin: auto;
+}
+
+.product h4 {
+	margin: 0;
+}
+
+.product p {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.product button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: -webkit-fill-available;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table th, table td {
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+table th {
+	background-color: #f2f2f2;
+}
+
+table td input {
+	width: 50px;
+}
+
+.remove-button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+tfoot td {
+	font-weight: bold;
+}
+
+.text-right {
+	text-align: right;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
